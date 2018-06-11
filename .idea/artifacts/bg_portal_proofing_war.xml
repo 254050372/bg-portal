@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bg-portal-proofing:war">
+    <output-path>$PROJECT_DIR$/bg-portal-proofing/target</output-path>
+    <root id="archive" name="proofing.war">
+      <element id="artifact" artifact-name="bg-portal-proofing:war exploded" />
+    </root>
+  </artifact>
+</component>

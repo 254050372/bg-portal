@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="thirdLib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/bg-portal-core/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/bg-portal-core/lib" recursive="false" />
+  </library>
+</component>

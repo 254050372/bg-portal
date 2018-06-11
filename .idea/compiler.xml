@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bg-portal-core" />
+        <module name="bg-portal-front" />
+        <module name="bg-portal-proofing" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bg-portal" target="1.8" />
+      <module name="bg-portal-core" target="1.8" />
+      <module name="bg-portal-front" target="1.8" />
+      <module name="bg-portal-proofing" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,65 @@
+##################################
+#          -_-TEST-_-            #
+#                                #
+##################################
+
+
+#本地portal数据库连接-TEST
+spring:
+  datasource:
+    #datasource config
+    druid:
+      #本地db
+      local:
+        url: jdbc:mysql://localhost:3306/xbwudb
+        username: root
+        password: bNVOqb7WKLX5Bjnw+LMv92taj25KOxDimXxILPQjw42wgv+1lHzOH8kr97xDwWdhpY67QuYCS7sWN4W46YbkFA==
+        driver-class-name: com.mysql.jdbc.Driver
+        ##初始化连接池数量
+        initial-size: 10
+        ##最小连接池数量
+        min-idle: 10
+        ##最大连接池数量
+        max-active: 100
+        ##用来检测连接是否有效的sql，要求是一个查询语句。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。
+        validation-query: select 1
+        ##建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效
+        test-while-idle: true
+        ##申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+        test-on-borrow: false
+        ##归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
+        test-on-return: false
+        ##是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭
+        pool-prepared-statements: false
+        ##拓展插件
+        filters: stat,log4j2,wall,config
+        ##慢SQL记录
+        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=true;
+      #bpm数据库连接-TEST
+      bpm:
+        url: jdbc:oracle:thin:@//192.168.0.44:1521/newefgp
+        username: efgptest
+        password: mhTo49sHDJshA4KzrdcU9/BEYkxSlVwQzxhCEFYMiYjctt0vuqWkQtOeKuPTTGws85aOle/PbpoL7x+xuZ2rOA==
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+        ##初始化连接池数量
+        initial-size: 10
+        ##最小连接池数量
+        min-idle: 10
+        ##最大连接池数量
+        max-active: 100
+        ##用来检测连接是否有效的sql，要求是一个查询语句。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。
+        validation-query:  select 1 from dual
+        ##建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效
+        test-while-idle: true
+        ##申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+        test-on-borrow: false
+        ##归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
+        test-on-return: false
+        ##是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭
+        pool-prepared-statements: false
+        ##拓展插件
+        filters: stat,log4j2,wall,config
+        ##慢SQL记录
+        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=true;
+
+
