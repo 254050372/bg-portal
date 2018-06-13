@@ -14,7 +14,7 @@
 
 # Package Files #
 *.jar
-!/bg-portal-core/lib/ojdbc6.jar
+!/bg-portal-core/lib/
 *.war
 *.ear
 *.zip
