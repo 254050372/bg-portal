@@ -3,8 +3,8 @@
 <ul>
 <li><p>mvc:springboot2.0</p></li>
 <li><p>orm:mybatis-plus</p></li>
-<li><p>proxy-Nginx</p></li>
-<li><p>front-layui</p></li>
+<li><p>proxy:Nginx</p></li>
+<li><p>front:layui</p></li>
 </ul>
 
 **目前后端框架基本搭建完毕，正在施工前后端分离+layui框架中**
