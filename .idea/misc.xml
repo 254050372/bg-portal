@@ -8,7 +8,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bg-portal-proofing/pom.xml" />
-        <option value="$PROJECT_DIR$/bg-portal-front/pom.xml" />
       </list>
     </option>
   </component>

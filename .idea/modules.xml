@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bg-portal.iml" filepath="$PROJECT_DIR$/.idea/bg-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/bg-portal-core/bg-portal-core.iml" filepath="$PROJECT_DIR$/bg-portal-core/bg-portal-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bg-portal-front/bg-portal-front.iml" filepath="$PROJECT_DIR$/bg-portal-front/bg-portal-front.iml" />
       <module fileurl="file://$PROJECT_DIR$/bg-portal-proofing/bg-portal-proofing.iml" filepath="$PROJECT_DIR$/bg-portal-proofing/bg-portal-proofing.iml" />
     </modules>
   </component>

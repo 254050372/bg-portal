@@ -7,14 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bg-portal-core" />
-        <module name="bg-portal-front" />
         <module name="bg-portal-proofing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bg-portal" target="1.8" />
       <module name="bg-portal-core" target="1.8" />
-      <module name="bg-portal-front" target="1.8" />
       <module name="bg-portal-proofing" target="1.8" />
     </bytecodeTargetLevel>
   </component>
